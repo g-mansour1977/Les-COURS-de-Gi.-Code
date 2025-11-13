@@ -500,7 +500,7 @@
 </section>
 
     <!-- === FACEBOOK PLUGINS === -->
-<h2>💬 Partage et Commentaires Facebook</h2>
+<h2 style="text-align:center;">💬 Partage et Commentaires Facebook</h2>
 
 <!-- Bouton J'aime et Partager -->
 <div class="fb-like"
@@ -512,20 +512,36 @@
      data-share="true">
 </div>
 
-<hr>
+<hr style="margin:20px 0;">
 
 <!-- Zone de commentaires -->
 <div class="fb-comments"
-     data-href="https://g-mansour1977.github.io/Gi.-Code-Bureautique-et-Developpement-WEB/"
+     data-href="https://g-mansour1977.github.io/Les-COURS-de-Gi.-Code/"
      data-width="100%"
      data-numposts="5">
 </div>
 
-<!-- SDK Facebook -->
+<!-- SDK Facebook (à placer juste avant </body>) -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous"
   src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v23.0&appId=1498839574651232">
 </script>
+
+<!-- Style pour centrer le plugin -->
+<style>
+  .fb-comments, .fb-like {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #1877f2;
+    font-weight: 600;
+  }
+</style>
+
 
 <footer style=text-align:center;padding:20px;background:#f0f0f0;margin-top:2rem>
 <p>📞 Contactez-nous au : <a href=tel:+221776813749>77 681 37 49</a></p>
